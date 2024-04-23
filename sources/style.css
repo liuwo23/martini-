@@ -1,0 +1,43 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body
+{
+    overflow: hidden;
+}
+
+.experience
+{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+}
+
+#error-modal{
+    position: fixed;
+    left: 20vh;
+    bottom: 20vh;
+    width: 20vw;
+    height: 55vh;
+}
+
+#error-text{
+    color: #eee8ef;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    font-size: larger;
+    font-family: system-ui;
+}
+
+#error-slider{
+    margin-left: 12px;
+}
+
+#addwirframe{
+    margin-top: 10vh;
+}
